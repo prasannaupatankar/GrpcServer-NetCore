@@ -7,7 +7,7 @@ This is a sample application created with Asp Net Core gRPC. It can be used to u
 After cloning the repository, you should build the application first, it is kind of mandatory for gRPC applications that after every change in the proto file or in the service, the build should done to reflect those changes.
 
 
-### Deploying / Publishing
+## Deploying / Publishing
 
 I have deployed and tested this application with Azure app service & IIS, you only need to configure the web.config file before deploying.
 
