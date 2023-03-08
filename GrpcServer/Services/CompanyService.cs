@@ -19,8 +19,8 @@ namespace GrpcServer.Services
         {
             try
             {
-                //Call a post API to insert the Company details
-                //After successful post call return Status as 1 else 0
+                //Add your database/API call here to save the Employee & Company details.
+                //After successful post call return the Status as 1 else 0.
                 return Task.FromResult(new Response
                 {
                     Status = 1
